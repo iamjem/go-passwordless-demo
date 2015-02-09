@@ -1,0 +1,23 @@
+{{ define "home" }}
+{{ template "header" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <div class="page-header">
+        <h1>Signup or Login</h1>
+      </div>
+      <p>Enter your email below to sign up or login and receive your verification email.</p>
+      <form class="form-inline" method="post">
+        <input type="hidden" name="csrf_token" value="{{ .CsrfToken }}">
+        <div class="form-group">
+          <input type="text" class="form-control input-lg" id="email" name="Email" placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{ template "footer" . }}
+{{ end }}
