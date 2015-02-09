@@ -1,5 +1,7 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/iamjem/go-passwordless-demo)
+
 # Passwordless Demo
-This is the project source code from my [blog post](#TODO) on [pixeldonor.com](http://www.pixeldonor.com).
+This is the project source code from my [blog post](http://www.pixeldonor.com/2015/feb/09/passwordless-authentication-golang/) on [pixeldonor.com](http://www.pixeldonor.com).
 
 # Running the Project On Heroku
 If you're a heroku fan, simply use the heroku button and you'll be up and running with the demo app in moments.
