@@ -17,7 +17,7 @@
     "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go.git",
     "DEBUG": {
       "description": "Enable debug mode for logging SQL and http traffic.",
-      "value": "false",
+      "value": "false"
     },
     "AUTH_KEY": {
       "description": "A random string for use with gorilla session."
