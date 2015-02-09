@@ -1,0 +1,44 @@
+{
+  "name": "Passwordless Demo",
+  "description": "This app is a simple implementation of passwordless authentication using Go.",
+  "website": "http://www.pixeldonor.com",
+  "repository": "https://github.com/iamjem/go-passwordless-demo",
+  "keywords": [
+    "passwordless",
+    "golang"
+  ],
+  "scripts": {
+    "postdeploy": "goose -env production up"
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go.git",
+    "DEBUG": {
+      "description": "Enable debug mode for logging SQL and http traffic.",
+      "value": "false",
+    },
+    "AUTH_KEY": {
+      "description": "A random string for use with gorilla session."
+    },
+    "ENCRYPT_KEY": {
+      "description": "A random string for use with gorilla session. Should be length 16, 24, or 32."
+    },
+    "EMAIL_FROM": {
+      "description": "The email to use as the sender for verification emails."
+    },
+    "EMAIL_HOST": {
+      "description": "Email host, ie smtp.gmail.com."
+    },
+    "EMAIL_PORT": {
+      "description": "Email port, ie 587."
+    },
+    "EMAIL_HOST_USER": {
+      "description": "Email username, ie user@gmail.com."
+    },
+    "EMAIL_HOST_PASSWORD": {
+      "description": "Email password."
+    }
+  }
+}

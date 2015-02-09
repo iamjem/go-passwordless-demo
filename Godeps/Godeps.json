@@ -1,0 +1,68 @@
+{
+	"ImportPath": "github.com/iamjem/go-passwordless-demo",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.6.2-10-g51fe59a",
+			"Rev": "51fe59aca108dc5680109e7b2051cbdcfa5a253c"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-55-g1dd3ab0",
+			"Rev": "1dd3ab0ff59e13f5b73dcbf70703710aebe50d2f"
+		},
+		{
+			"ImportPath": "github.com/coopernurse/gorp",
+			"Comment": "v1.7",
+			"Rev": "5d19ebd22fdcf3b9fb1c8cbfcf1d4e78e102f1e0"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "14f550f51af52180c2eefed15e5fd18d63c0a64a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/handlers",
+			"Rev": "0e84b7d810c16aed432217e330206be156bafae0"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "4b8fbc56f3b2400a7c7ea3dba9b3539787c486b6"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Rev": "1b0c7f6e9ab3d7f500fd7d50c7ad835ff428139b"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Rev": "aa5e036e6c44aec69a32eb41097001978b29ad31"
+		},
+		{
+			"ImportPath": "github.com/guregu/null",
+			"Comment": "v2.1.1-3-g68a8032",
+			"Rev": "68a803260b6b65e7c87c2a641aaa31b3c4f0d240"
+		},
+		{
+			"ImportPath": "github.com/justinas/nosurf",
+			"Comment": "0.1-42-g100c241",
+			"Rev": "100c24154ff2b869e95c043ab8f099c18e4d491f"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Rev": "c6325123e6d45115749734a8bc35060ebac74d0e"
+		},
+		{
+			"ImportPath": "github.com/stretchr/graceful",
+			"Rev": "8e780ba3fe3d3e7ab15fc52e3d60a996587181dc"
+		},
+		{
+			"ImportPath": "github.com/stretchr/pat/stop",
+			"Rev": "f7fe051f2b9bcaca162b38de4f93c9a8457160b9"
+		},
+		{
+			"ImportPath": "golang.org/x/net/netutil",
+			"Comment": "null-204",
+			"Rev": "8fd8d3a0313cb59e495106ac76df5da29381fa24"
+		}
+	]
+}
